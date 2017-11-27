@@ -1,0 +1,66 @@
+#bodycolor {
+	background-color: white ;
+	font-family: cursive
+}
+#bodyimagen {
+	background-image: url("fondocolorido.jpg");
+	background-repeat: no-repeat;
+	font-family: cursive;
+}
+
+#bodysylvanas {
+	background-image: url("sylvanas.jpg");
+	background-repeat: no-repeat;
+	font-family: cursive;
+}
+
+#pagprincipal {
+    display: inline;
+}
+#pagprincipal a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+#pagprincipal a.active {
+    color: blue;
+    background-color: #4CAF50;
+    
+}
+
+article {
+	color: #ff0000;
+
+}
+#pagsecundaria li {
+	display: block;
+
+}
+
+#pagtercera li {
+	display :inline;
+}
+
+
+#desplegable  {
+	display: none;
+	position: absolute;
+	background-color: green;
+	min-width: 20px;
+	box-shadow: 0px 8px 16px 0px;
+rgba(0,0,0,0.2)
+	z-index: : 1;
+
+}
+#prueba:hover #desplegable {
+	background-color: yellow;
+	display: inline-block;
+}
+
+
+#desplegable ul {
+	color: red;
+	padding: 12 px 16 px;
+	display: block;
+	text-align: left;
+
+}
