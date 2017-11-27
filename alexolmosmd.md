@@ -1,11 +1,11 @@
 # Este espacio esta dedicado a los trabajos de lenguaje de marcas.
 ## clases del primer año:
 
--lenguaje de marcas
--base de datos
-*programación
-*FOL
-+sistemas informaticos
+- lenguaje de marcas
+- base de datos
+* programación
+* FOL
++ sistemas informaticos
 ___
 ## mi Github
 [acceder a mi Github](https://github.com/bankoksu)
