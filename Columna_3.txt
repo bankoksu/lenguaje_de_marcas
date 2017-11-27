@@ -1,0 +1,25 @@
+SELECT AVG(price) AS media, MAX(price) AS maximo,MIN(price) AS minimo, SUM(price) AS suma FROM PC WHERE hd>120
+
+π media, maximo, minimo, suma γ ; media←AVG(price), MAX(price)→maximo, MIN(price)→minimo, SUM(price)→suma σ hd > 120 PC
+
+
+SELECT DISTINCT ram, AVG(price) AS media_Precio,COUNT(model) AS Cantidad_en_Stock  FROM PC GROUP BY ram ORDER BY ram
+
+τ ram asc π ram, media_Precio, Cantidad_en_Stock γ ram; AVG(price)→media_Precio, COUNT(model)→Cantidad_en_Stock PC
+
+SELECT DISTINCT ram,hd, AVG(price) AS media_Precio,COUNT(model) AS Modelos_en_Stock  FROM PC GROUP BY ram,hd ORDER BY ram
+
+τ ram asc π ram,hd, media_Precio, Modelo_en_Stock γ ram,hd; AVG(price)→media_Precio, COUNT(model)→Modelo_en_Stock PC
+
+SELECT DISTINCT ram,hd, AVG(price) AS media_Precio,COUNT(model) AS Modelos_en_Stock  FROM PC GROUP BY ram,hd HAVING ram>512 
+EXCEPT
+SELECT DISTINCT ram,hd,AVG(price) AS media_Precio,COUNT(model) AS Modelos_en_Stock FROM PC GROUP BY ram,hd Having hd<180 ORDER BY ram
+
+
+τ ram asc π ram, hd, media_Precio, Modelos_en_Stock σ ram > 512 γ ram, hd; AVG(price)→media_Precio, COUNT(model)→Modelos_en_Stock PC 
+- 
+π ram, hd, media_Precio, Modelos_en_Stock σ hd < 180 γ ram, hd; AVG(price)→media_Precio, COUNT(model)→Modelos_en_Stock PC
+
+SELECT DISTINCT Printer.model,PC.model,speed ,color FROM PC,Printer WHERE PC.price>900 and Printer.price>200
+
+π Printer.model, PC.model, speed, color σ PC.price > 900 and Printer.price > 200 PC ⨯ Printer
