@@ -19,7 +19,7 @@ ___
 
 **horario**
 |hora | lunes| martes| miercoles| jueves| viernes|
-|-----|------|-------|----------|-------|--------|
+|:----|:----:|:-----:|:--------:|:-----:|-------:|
 |15:45|BBDD  |SSII   |SSII      |progr  |BBDD    |
 |16:35|LLMM  |Progr  |FOL       |progr  |BBDD    |
 |17:30|LLMM  |progr  |FOL       |progr  |BBDD    |
