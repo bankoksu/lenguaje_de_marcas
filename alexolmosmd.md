@@ -3,9 +3,9 @@
 
 -lenguaje de marcas
 -base de datos
--programación
--FOL
--sistemas informaticos
+*programación
+*FOL
++sistemas informaticos
 ___
 ## mi Github
 [acceder a mi Github](https://github.com/bankoksu)
@@ -18,11 +18,12 @@ ___
 ___
 
 **horario**
-|hora | lunes| martes| miercoles| jueves| viernes|
-|:----|:----:|:-----:|:--------:|:-----:|-------:|
-|15:45|BBDD  |SSII   |SSII      |progr  |BBDD    |
-|16:35|LLMM  |Progr  |FOL       |progr  |BBDD    |
-|17:30|LLMM  |progr  |FOL       |progr  |BBDD    |
+
+| hora  | Lunes | Martes | Miercoles |  Jueves| Viernes |
+| :---- | :---: | :----: |:--------: | :----: | ------: |
+| 15:45 | BBDD  | SSII   |SSII       | progr  | BBDD    |
+| 16:35 | LLMM  | Progr  |FOL        | progr  | BBDD    |
+| 17:30 | LLMM  | progr  |FOL        | progr  | BBDD    |
 
 
 ![recuerda](https://i.imgur.com/yisr5vA.jpg)
