@@ -1,0 +1,73 @@
+#h1 {
+	
+	text-align: center;
+
+
+}
+#h2 {
+	background-color: blue;
+	border-radius: 15px 15px;
+}
+#article {
+	display: inline-block;
+	margin-right: solid;
+	border-radius: 10px 10px;
+	font-size: 120%;
+	background-color: gray;
+
+}
+#p {
+	display: inline-block;
+}
+#ptitulo {
+	font-size: 130%;
+
+}
+#barralateral {
+	object-position: left;
+	position: absolute;
+	background-color: blue;
+
+}
+#barralateral li {
+	display: block;
+	border: solid;
+	border-color: black;
+	margin: 15px;
+
+
+
+}
+
+#barrafija li {
+	display: inline;
+}
+#barrafija {
+	border-radius: 10px 10px;
+	background-color: blue;
+}
+
+#ul li{
+	display: inline;
+	border:solid;
+
+	background-color: blue;
+	font-size: 140%;
+	border-radius: 10px 10px;
+
+	
+}
+
+#desplegable li {
+	display: none;
+	
+
+
+}
+#prueba:hover #desplegable {
+	background-color: yellow;
+	box-shadow: 0px 12px 20px 0px;
+	display: block;
+	box-shadow: 0px 12px 20px 0px;
+}
+
