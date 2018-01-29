@@ -1,0 +1,102 @@
+body {
+	background-image: url(".\img\bg.png");
+	background-repeat: repeat;
+	border:solid;
+	border-color: blue;
+}
+
+#main{
+    width:	65%;
+    display:inline-block;
+}
+#sidebar{
+	display:inline-block;
+    position:relative;
+    margin: 0 auto;
+    overflow: auto;	
+    background-color:rgb(61, 102, 126);	
+    border-radius: 10px;
+    padding-bottom: 15px;	
+}
+#side ul {
+	text-decoration: none;
+	
+
+
+}
+
+#sidebar ul li{
+	background-color: grey;
+	text-decoration: none;
+	
+}
+#header{
+	display: block;
+}
+
+
+
+#header li a {
+	width: 850px;
+	font-family: arial, Helvetica, sans-serif;
+	text-decoration: none;
+	
+
+
+}
+#barrafinal {
+	text-align: center;
+	background-color:blue;
+	padding: 10px 15px;
+	border-radius: 10px 15px;
+
+}
+
+#barrafinal li {
+	display:inline;
+	width: 500px;
+	
+}
+#barrafinal li a {
+	color: white;
+	text-decoration:none;
+}	
+
+
+#barrafinal li a:hover {
+	background-color: white;
+	color: blue;
+	border-radius:10px 15px;
+}
+
+#fotobaner {
+	display: block;
+	max-width: : 95%;
+}
+
+
+
+.nav li a {
+	color:blue;
+	text-decoration:none;
+	padding:10px 15px;
+	display:inline;
+
+}
+.nav li a:hover {
+	background-color: #434343;
+
+}
+
+.nav > li {
+	float:left;
+	text-decoration: none;
+}
+.nav li ul {
+	display:none;
+
+}
+
+#article p {
+	color:blue;
+}
